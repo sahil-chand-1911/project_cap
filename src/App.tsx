@@ -69,6 +69,7 @@ function App() {
       receiptUrl: '#',
     };
     
+    
     setDonations([...donations, donation]);
     setIsDonationModalOpen(false);
     
