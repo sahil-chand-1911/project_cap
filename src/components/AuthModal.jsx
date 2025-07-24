@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { X, Mail, Lock, User, Eye, EyeOff } from 'lucide-react';
+import {X,Mail,Lock,User,Eye,EyeOff } from 'lucide-react';
 
-export default function AuthModal({ isOpen, onClose, mode, onModeChange, onAuth }) {
+export default function AuthModal({isOpen,onClose,mode,onModeChange,onAuth }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',

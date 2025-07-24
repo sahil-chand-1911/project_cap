@@ -22,7 +22,6 @@ function App() {
   const [user, setUser] = useState(null);
   const [donations, setDonations] = useState(userDonations);
 
-  // Filter charities based on category and search
   const filteredCharities = charities.filter((charity) => {
     const matchesCategory = selectedCategory === 'all' || charity.category === selectedCategory;
     const matchesSearch = charity.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
